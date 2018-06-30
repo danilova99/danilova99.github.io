@@ -42,6 +42,9 @@ header {
 	padding: 17px 55px;
 	margin-top: 32px;
 	font-family: 'Roboto', sans-serif;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 .header-button:focus {
@@ -49,9 +52,7 @@ header {
 }
 
 .header-button:hover {
-	cursor: pointer;
-	background-color: #3a7dfd;
-	color: #ffffff;
+	box-shadow: none;
 }
 
 header small {
@@ -178,6 +179,9 @@ footer {
 	font-size: 18px;
 	padding: 12px 40px;
 	font-family: 'Roboto', sans-serif;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 .footer-button:focus {
@@ -185,9 +189,8 @@ footer {
 }
 
 .footer-button:hover {
-	cursor: pointer;
 	background-color: #ffffff;
-	color: #072b6f;
+	color: #3a7dfd;
 	font-weight: 700;
 }
 
